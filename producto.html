@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/icono.webp" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+  <title>Productos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!--========================================================== -->
+  <!-- ENCABEZADO -->
+  <!--========================================================== -->
+  <header class="container-fluid bg-primary d-flex justify-content-center ">
+    <p class="text-light mb-0 p-2 fs-6">Contactanos 1-(305)-725-1000</p>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light p-3 fixed-top bg-light" id="menu">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <span class="fs-5 text-primary fw-bold">ExpertD.</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.php">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php#equipo">Equipo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="producto.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="index.php#seccion-contacto">Contactos</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Suscribete">
+          <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+        </form>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <section style="background-color: #eee;" id="productos">
+    <div class="container py-5">
+      <h1 class="text-center">Nuestros productos</h1>
+      <div class="row justify-content-center mb-3">
+        <div class="col-md-12 col-xl-10">
+          <div class="card shadow-0 border rounded-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
+                  <div class="bg-image hover-zoom ripple rounded ripple-surface">
+                    <img src="img/2e.jpg" class="w-100" />
+                    <a href="#!">
+                      <div class="hover-overlay">
+                        <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                  <h5>Comercio Electronico</h5>
+                  <div class="d-flex flex-row">
+                    <div class="text-danger mb-1 me-2">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <span>310</span>
+                  </div>
+                  <div class="mt-1 mb-0 text-muted small">
+                    <span>100% Seguridad</span>
+                    <span class="text-primary"> • </span>
+                    <span>Tranferencias Internacionales</span>
+                    <span class="text-primary"> • </span>
+                    <span>SEO<br /></span>
+                  </div>
+                  <div class="mb-2 text-muted small">
+                    <span>Tienda en Linea</span>
+                    <span class="text-primary"> • </span>
+
+                  </div>
+                  <p class="text-truncate mb-4 mb-md-0">
+                    Implementamos campañas publicitarias eficientes en plataformas como Google Ads y redes sociales para
+                    llegar a tu audiencia objetivo y aumentar la conciencia de marca.
+                  </p>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                  <div class="d-flex flex-row align-items-center mb-1">
+                    <h4 class="mb-1 me-1">$13.99</h4>
+                    <span class="text-danger"><s>$20.99</s></span>
+                  </div>
+                  <h6 class="text-success">Asesoria Gratis</h6>
+                  <div class="d-flex flex-column mt-4">
+
+                    <button type="button" class="btn btn-primary" onclick="openModal()">
+                      detalles
+                    </button>
+
+
+                    <button class="btn btn-outline-success btn-sm mt-2 text-dark text-light">
+                      <a href="https://api.whatsapp.com/send?phone=593984641801" style="text-decoration: none;"
+                        target="_blank">Whatsapp</a>
+                    </button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-3">
+        <div class="col-md-12 col-xl-10">
+          <div class="card shadow-0 border rounded-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
+                  <div class="bg-image hover-zoom ripple rounded ripple-surface">
+                    <img src="img/3e.jpeg" class="w-100" />
+                    <a href="#!">
+                      <div class="hover-overlay">
+                        <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                  <h5>Marketing digital</h5>
+                  <div class="d-flex flex-row">
+                    <div class="text-danger mb-1 me-2">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <span>289</span>
+                  </div>
+                  <div class="mt-1 mb-0 text-muted small">
+                    <span>100% Confibilidad</span>
+                    <span class="text-primary"> • </span>
+                    <span>Excel</span>
+                    <span class="text-primary"> • </span>
+                    <span>BI<br /></span>
+                  </div>
+                  <div class="mb-2 text-muted small">
+                    <span>IBM Watson Analytics </span>
+                    <span class="text-primary"> • </span>
+
+                  </div>
+                  <p class="text-truncate mb-4 mb-md-0">
+                    Implementamos campañas publicitarias eficientes en plataformas como Google Ads y redes sociales para
+                    llegar a tu audiencia objetivo y aumentar la conciencia de marca. </p>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                  <div class="d-flex flex-row align-items-center mb-1">
+                    <h4 class="mb-1 me-1">$14.99</h4>
+                    <span class="text-danger"><s>$21.99</s></span>
+                  </div>
+
+                  <h6 class="text-success">Asesoria Gratis</h6>
+                  <div class="d-flex flex-column mt-4">
+                    <button class="btn btn-primary btn-sm" type="button" onclick="openModalSegundo()">detalles</button>
+                    <button class="btn btn-outline-success btn-sm mt-2 text-dark text-light">
+                      <a href="https://api.whatsapp.com/send?phone=593984641801" style="text-decoration: none;"
+                        target="_blank">Whatsapp</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-12 col-xl-10">
+          <div class="card shadow-0 border rounded-3">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
+                  <div class="bg-image hover-zoom ripple rounded ripple-surface">
+                    <img src="img/4e.webp" class="w-100" />
+                    <a href="#!">
+                      <div class="hover-overlay">
+                        <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                  <h5>Community Manager</h5>
+                  <div class="d-flex flex-row">
+                    <div class="text-danger mb-1 me-2">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <span>145</span>
+                  </div>
+                  <div class="mt-1 mb-0 text-muted small">
+                    <span>100% Creatividad</span>
+                    <span class="text-primary"> • </span>
+                    <span>SEO</span>
+                    <span class="text-primary"> • </span>
+                    <span>RRSS<br /></span>
+                  </div>
+                  <div class="mb-2 text-muted small">
+                    <span>Google ADS</span>
+                    <span class="text-primary"> • </span>
+                    <span>Meta ADS</span>
+                    <span class="text-primary"> • </span>
+                    <span>Tiktok ADS<br /></span>
+                  </div>
+                  <p class="text-truncate mb-4 mb-md-0">
+                    Creamos estrategias efectivas en redes sociales para aumentar la participación de tu audiencia,
+                    construir relaciones sólidas y aumentar las conversiones.
+                  </p>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                  <div class="d-flex flex-row align-items-center mb-1">
+                    <h4 class="mb-1 me-1">$17.99</h4>
+                    <span class="text-danger"><s>$25.99</s></span>
+                  </div>
+                  <h6 class="text-success">Asesoria Gratis</h6>
+                  <div class="d-flex flex-column mt-4">
+                    <button class="btn btn-primary btn-sm" type="button" onclick="openModalTercero()">detalles</button>
+                    <button class="btn btn-outline-success btn-sm mt-2 text-dark text-light">
+                      <a href="https://api.whatsapp.com/send?phone=593984641801" style="text-decoration: none;"
+                        target="_blank">Whatsapp</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="text-center text-white bg-primary">
+    <!-- Grid container -->
+    <div class="container">
+      <!-- Section: Links -->
+      <section class="">
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="index.php" class="text-white">Inicio</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="index.php#equipo" class="text-white">Equipo</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="nosotros.html" class="text-white">Nosotros</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="producto.html" class="text-white">Productos</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="index.php#seccion-contacto" class="text-white">Contactos</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-5" id="hr" />
+
+      <!-- Section: Text -->
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              En <strong>ExpertD</strong>, nos enorgullece ser líderes en la industria al ofrecer servicios de marketing
+              digital de primera categoría. Nos dedicamos a potenciar tu marca y a impulsar tu presencia en línea para
+              que destaque en el competitivo mundo digital.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Text -->
+
+      </style>
+      <!-- Section: Social -->
+      <section class="text-center mb-5">
+        <a href="index.php" class="text-white me-4"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-4"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-white me-4"><i class="bi bi-google"></i></a>
+        <a href="#" class="text-white me-4"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white me-4"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="text-white me-4"><i class="bi bi-github"></i>
+        </a>
+      </section>
+
+      <!-- Section: Social -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2024 Copyright:
+      <a class="text-white" href="/">ExpertD.</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!------------------------------- MODAL DE SERVICIO--------------------------------------------->
+  <div class="modal fade" id="tercerProducto" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel"> Community Manager</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Creamos estrategias efectivas en redes sociales para aumentar la participación de tu audiencia, construir
+          relaciones sólidas y aumentar las conversiones.
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel"> Comercio Electronico</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Implementamos campañas publicitarias eficientes en plataformas como Google Ads y redes sociales para llegar
+            a tu audiencia objetivo y aumentar la conciencia de marca.
+
+          </p>
+          <p>Utilizamos análisis de datos para medir el rendimiento y ajustar estrategias, garantizando un crecimiento
+            continuo y resultados tangibles.
+
+          </p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="segundoProducto" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel"> Marketing Digital</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Desarrollamos sitios web atractivos y funcionales que no solo cautivan a los visitantes, sino que también
+            impulsan las conversiones y ventas.
+
+          </p>
+          <p>Aumentamos la visibilidad de tu tienda en los motores de búsqueda, asegurándonos de que los clientes
+            potenciales te encuentren fácilmente.
+
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
